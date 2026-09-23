@@ -6,6 +6,7 @@ Windows: .\venv\Scripts\activate
 Linux e Mac: . venv/bin/activate
 pip install django
 django-admin startproject project .
+python manage.py startapp contact
 ```
 
 Configurar o git
