@@ -65,3 +65,7 @@ contacts = Contact.objects.all().order_by('-id')
 # Retorna QuerySet[]
 contacts = Contact.objects.filter(**filters).order_by('-id')
 ```
+Criando as pastas estáticas
+
+"python manage.py collectstatic"
+```
